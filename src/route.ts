@@ -3,6 +3,6 @@ import Controller from "./Controller";
 
 const route = Router();
 
-route.get("/", new Controller().GenerateRandomNumbers);
+route.get("/random", new Controller().GenerateRandomNumbers);
 
 export default route;
